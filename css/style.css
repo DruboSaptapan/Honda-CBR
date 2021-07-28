@@ -1,0 +1,29 @@
+/* header start */
+header{
+    background-color: #264653;
+}
+header small{
+    font-size: 14px;
+}
+header h1{
+    color: #fff;
+    font-size: 48px;
+}
+header p{
+    color: #E0E0E0;
+    font-size: 16px;
+}
+.btn-bg{
+    color: #fff;
+    background-color: #E76F51;
+}
+/* header end */
+
+/* features start */
+.features h2{
+    font-size: 48px;
+}
+.features .image:nth-child(1), .features .image:nth-child(3){
+    filter: grayscale(1);
+}
+/* features start */
