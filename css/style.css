@@ -12,7 +12,7 @@ h1{
     font-size: calc(2.2rem + 1.5vw);
 }
 h2{
-    font-size: calc(1.98rem + .9vw);
+    font-size: calc(1.78rem + .9vw);
     margin-bottom: 45px;
 }
 h2 span{
@@ -65,6 +65,12 @@ header .text p{
 /* features start */
 
 /* client says start */
+.client{
+    transition: all .4s ease-in;
+}
+.client:hover{
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.09);
+}
 .client p{
     color: #6C6C6C;
 }
@@ -76,3 +82,36 @@ header .text p{
 .client .card-title{
     color: #23A6F0;
 }
+
+/* similar bike start */
+.bike{
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    transition: all .6s ease;
+}
+.bike:hover{
+    color: #fff;
+    background-color: #E76F51;
+}
+
+/* similar bike end */
+
+/* form start */
+.form{
+    background: rgba(0, 0, 0, 0.6) url(../images/pexels-arthouse-studio-4594014.jpg);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-btn{
+    color: #fff;
+    background-color: #E76F51;
+    padding: 10px 35px;
+    transition: all 0.6s;
+}
+.form-btn:hover{
+    color: #000;
+}
+/* form end */
