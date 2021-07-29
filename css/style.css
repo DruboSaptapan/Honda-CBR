@@ -1,27 +1,49 @@
+.custom-margin{
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+@media (min-width: 992px) {
+    .custom-margin{
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+}
 /* header start */
 header{
     background-color: #264653;
 }
 header small{
-    font-size: 14px;
+    font-size: 14 px;
 }
 header h1{
     color: #fff;
-    font-size: 48px;
+    font-size: calc(2.2rem + 1.5vw);
 }
 header p{
     color: #E0E0E0;
     font-size: 16px;
+    line-height: 24px;
+}
+header .text p{
+    color: #000;
 }
 .btn-bg{
     color: #fff;
     background-color: #E76F51;
+    padding: 10px 35px;
+}
+.btn-bg-2{
+    color: #000;
+    border: 1px solid #E76F51;
+    padding: 10px 35px;
 }
 /* header end */
 
 /* features start */
 .features h2{
-    font-size: 48px;
+    /* font-size: 48px; */
+    font-size: calc(1.98rem + .9vw);
+    font-weight: 600;
 }
 .features h6{
     color: #E76F51;
@@ -35,4 +57,20 @@ header p{
 .client p{
     color: #6C6C6C;
 }
+.client .fa-star{
+    color: #E77C40;
+}
+.client span{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.client .card-title{
+    color: #23A6F0;
+}
 /* client says end */
+@media (min-width:992px) {
+    .custom-margin-lg{
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+}
