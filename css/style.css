@@ -1,11 +1,11 @@
 .custom-margin{
-    margin-top: 100px;
-    margin-bottom:100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 @media (min-width: 992px) {
     .custom-margin{
-        margin-top: 120px;
-        margin-bottom: 120px;
+        margin-top: 90px;
+        margin-bottom: 90px;
     }
 }
 h1{
@@ -83,6 +83,21 @@ header .text p{
     color: #23A6F0;
 }
 
+/* accordion start*/
+.accordion-side-img{
+    transition: .5s;
+    animation: animation1 .9s ease-out infinite alternate;
+}
+@keyframes animation1 {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/* accordion start*/
+
 /* similar bike start */
 .bike{
     color: #E76F51;
@@ -98,7 +113,7 @@ header .text p{
 
 /* form start */
 .form{
-    background: rgba(0, 0, 0, 0.6) url(../images/pexels-arthouse-studio-4594014.jpg);
+    background: rgba(0, 0, 0, 0.6) url(../images/form-bg.jpg);
     background-blend-mode: darken;
     background-attachment: fixed;
     background-position: center;
