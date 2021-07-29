@@ -23,7 +23,16 @@ header p{
 .features h2{
     font-size: 48px;
 }
+.features h6{
+    color: #E76F51;
+}
 .features .image:nth-child(1), .features .image:nth-child(3){
     filter: grayscale(1);
 }
 /* features start */
+
+/* client says start */
+.client p{
+    color: #6C6C6C;
+}
+/* client says end */
